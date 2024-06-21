@@ -1,0 +1,99 @@
+/* GLOBAIS */
+
+@font-face {
+    
+    font-family: 'folkner';
+    src: url('/fonts/Folkner\ Regular\ Regular.otf')
+}
+.active {
+    color: #FFA300 !important;
+}
+.trans{
+    width: 100%;
+}
+.bg-green{
+    background-color: #0E4708;
+}
+
+/* GLOBAIS */
+
+/* TOPO */
+
+.navbar {
+    padding: 1.2em 0em;
+}
+.nav-link {
+    font-family: 'folkner';
+    font-size: 37px;
+    color: #FFC50C;
+}
+.nav-link:hover{
+    color: #FFA300;
+}
+
+
+/* FIM TOPO */
+
+/* Começo banner */
+
+.banner{
+    height: 885px;
+    background-color: #FFA300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.banner div{
+    margin-left: 10em;
+}
+.banner h1{
+    text-align: center;
+    font-family: 'folkner';
+    font-size: 8em;
+    color: #0E4708;
+}
+.banner h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #0E4708;
+    color: #FFC50C;
+    font-size: 48px;
+    font-family: 'folkner';
+}
+.banner img{
+    align-self: flex-end;
+}
+
+/* FIM BANNER */
+
+/* Começo Sobre */
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12.5em 0;
+}
+
+.sobre img{
+    margin-right: 2%;
+}
+
+.sobre div{
+    width: 65%;
+}
+
+.sobre div h1{
+    font-size: 6rem;
+    font-family: 'folkner';
+    color: #087001;
+    margin-bottom: 1em;
+}
+
+.sobre div p{
+    font-size: 40px;
+    font-family: 'folkner';
+    color: black;
+    width: 100%;
+}
